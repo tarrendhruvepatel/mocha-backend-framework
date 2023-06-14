@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --spec=tests/**.spec.js"
+    "test": "env-cmd -e staging mocha --spec=tests/**.spec.js"
   },
   "author": "Tarren Dhruve Patel",
   "license": "ISC",
